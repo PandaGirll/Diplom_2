@@ -16,8 +16,7 @@ def login_user(email, password):
 
 
 @allure.step("Удаление пользователя")
-def delete_user(email, password):
-    token = login_user(email, password).json()['accessToken']
+def delete_user(token):
     headers = {'Authorization': token}
     return requests.delete(USER, headers=headers)
 

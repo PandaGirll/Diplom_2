@@ -15,9 +15,12 @@ class TestGetUserOrders:
         create_new_order()
         response = ApiMethods.get_user_orders(new_user['access_token'])
         assert ResponseChecker.check_status_code(response, SUCCESS_CODE) and \
-               ResponseChecker.check_field_exists(response, 'orders'), \
-            f"Не удалось получить заказы пользователя. Код ответа: {response.status_code}, тело ответа: {response.json()}"
-        assert len(response.json()['orders']) > 0, "Список заказов пуст"
+       ResponseChecker.check_field_exists(response, 'orders') and \
+       len(response.json()['orders']) > 0, \
+       f"Ошибка при получении заказов пользователя: " \
+       f"Код ответа: {response.status_code}, " \
+       f"Тело ответа: {response.json()}, " \
+       f"Количество заказов: {len(response.json().get('orders', []))}"
 
     @allure.title("Попытка получения заказов неавторизованным пользователем")
     @pytest.mark.negative

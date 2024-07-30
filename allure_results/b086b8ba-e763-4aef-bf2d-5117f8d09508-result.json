@@ -1,0 +1,88 @@
+{
+  "name": "Успешное изменение данных авторизованного пользователя",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Изменение данных пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0NDFmOWVkMjgwMDAxYjQ4MDg1ZCIsImlhdCI6MTcyMjMwMzUyMCwiZXhwIjoxNzIyMzA0NzIwfQ.mB0PDajWqF3jxJr586ck9kNftx-9u7gP6h-tlzcbgyw'"
+        },
+        {
+          "name": "name",
+          "value": "'Jacob Massey'"
+        }
+      ],
+      "start": 1722303521351,
+      "stop": 1722303521943
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 200",
+      "status": "passed",
+      "start": 1722303521943,
+      "stop": 1722303521943
+    },
+    {
+      "name": "Проверяем значение поля 'name' пользователя в ответе (Jacob Massey)",
+      "status": "passed",
+      "start": 1722303521943,
+      "stop": 1722303521943
+    }
+  ],
+  "parameters": [
+    {
+      "name": "update_field",
+      "value": "'name'"
+    }
+  ],
+  "start": 1722303521350,
+  "stop": 1722303521944,
+  "uuid": "331d4487-16f2-4805-951f-c1f673f79d72",
+  "historyId": "f2893430e4f0343b784f6218076598b5",
+  "testCaseId": "0c6ab0a69b2f57330aa61136df145687",
+  "fullName": "tests.test_user_update.TestUserUpdate#test_update_authorized_user",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Изменение данных пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_update"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserUpdate"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_update"
+    }
+  ]
+}

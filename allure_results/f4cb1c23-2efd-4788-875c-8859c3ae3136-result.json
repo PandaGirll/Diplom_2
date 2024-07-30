@@ -1,0 +1,88 @@
+{
+  "name": "Успешное изменение данных авторизованного пользователя",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Изменение данных пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0NDFjOWVkMjgwMDAxYjQ4MDg1YSIsImlhdCI6MTcyMjMwMzUxNywiZXhwIjoxNzIyMzA0NzE3fQ.sBU7EqiH-_-oM2GTfQH3rDvx6iPxGPJvLsjjqyBJzow'"
+        },
+        {
+          "name": "email",
+          "value": "'pandawstephens@example.net'"
+        }
+      ],
+      "start": 1722303518500,
+      "stop": 1722303519112
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 200",
+      "status": "passed",
+      "start": 1722303519112,
+      "stop": 1722303519112
+    },
+    {
+      "name": "Проверяем значение поля 'email' пользователя в ответе (pandawstephens@example.net)",
+      "status": "passed",
+      "start": 1722303519112,
+      "stop": 1722303519112
+    }
+  ],
+  "parameters": [
+    {
+      "name": "update_field",
+      "value": "'email'"
+    }
+  ],
+  "start": 1722303518499,
+  "stop": 1722303519112,
+  "uuid": "718d3dba-8f40-4656-8b3f-f7a6bcc27237",
+  "historyId": "37403374852f54943d6d3c95d0231bb8",
+  "testCaseId": "0c6ab0a69b2f57330aa61136df145687",
+  "fullName": "tests.test_user_update.TestUserUpdate#test_update_authorized_user",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Изменение данных пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_update"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserUpdate"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_update"
+    }
+  ]
+}

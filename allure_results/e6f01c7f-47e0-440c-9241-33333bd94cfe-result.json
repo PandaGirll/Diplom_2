@@ -1,0 +1,102 @@
+{
+  "name": "Успешное получение заказов авторизованным пользователем",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Создание тестового заказа",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Создание заказа",
+          "status": "passed",
+          "parameters": [
+            {
+              "name": "token",
+              "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0M2ZhOWVkMjgwMDAxYjQ4MDgzZCIsImlhdCI6MTcyMjMwMzQ4MywiZXhwIjoxNzIyMzA0NjgzfQ.Fy-BAW8r4FlYHGqxH7Pl40m5siejhRSMURpZcpotEM0'"
+            },
+            {
+              "name": "ingredients",
+              "value": "['61c0c5a71d1f82001bdaaa75', '61c0c5a71d1f82001bdaaa6d', '61c0c5a71d1f82001bdaaa6f']"
+            }
+          ],
+          "start": 1722303485515,
+          "stop": 1722303487568
+        }
+      ],
+      "start": 1722303485515,
+      "stop": 1722303487568
+    },
+    {
+      "name": "Получение заказов пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0M2ZhOWVkMjgwMDAxYjQ4MDgzZCIsImlhdCI6MTcyMjMwMzQ4MywiZXhwIjoxNzIyMzA0NjgzfQ.Fy-BAW8r4FlYHGqxH7Pl40m5siejhRSMURpZcpotEM0'"
+        }
+      ],
+      "start": 1722303487568,
+      "stop": 1722303488428
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 200",
+      "status": "passed",
+      "start": 1722303488428,
+      "stop": 1722303488429
+    },
+    {
+      "name": "Проверяем наличие поля 'orders' в ответе",
+      "status": "passed",
+      "start": 1722303488429,
+      "stop": 1722303488429
+    }
+  ],
+  "start": 1722303485515,
+  "stop": 1722303488430,
+  "uuid": "393ec4b8-47b2-4884-9580-62d5cbd64f23",
+  "historyId": "c61394d2ac4d3f409a6b251ffd517580",
+  "testCaseId": "c61394d2ac4d3f409a6b251ffd517580",
+  "fullName": "tests.test_get_user_orders.TestGetUserOrders#test_get_orders_authorized",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Получение заказов пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_get_user_orders"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetUserOrders"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_get_user_orders"
+    }
+  ]
+}

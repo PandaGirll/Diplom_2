@@ -1,5 +1,6 @@
+from random import sample
+
 from faker import Faker
-from random import randint, sample
 
 fake = Faker()
 

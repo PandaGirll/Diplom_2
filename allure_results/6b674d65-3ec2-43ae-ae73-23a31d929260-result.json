@@ -1,0 +1,92 @@
+{
+  "name": "Попытка создания пользователя без обязательного поля",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Регистрация пользователя: ''",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "email",
+          "value": "''"
+        },
+        {
+          "name": "password",
+          "value": "'#TWPTYXu4X'"
+        },
+        {
+          "name": "name",
+          "value": "'Darrell Arnold'"
+        }
+      ],
+      "start": 1722303506583,
+      "stop": 1722303507222
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 403",
+      "status": "passed",
+      "start": 1722303507222,
+      "stop": 1722303507222
+    },
+    {
+      "name": "Проверяем значение поля 'message' в ответе (Email, password and name are required fields)",
+      "status": "passed",
+      "start": 1722303507222,
+      "stop": 1722303507222
+    }
+  ],
+  "parameters": [
+    {
+      "name": "field",
+      "value": "'email'"
+    }
+  ],
+  "start": 1722303506582,
+  "stop": 1722303507222,
+  "uuid": "ac98059f-9505-4f63-bd5d-a1048174d0ee",
+  "historyId": "8105b65745b926b77e4343308f6217e8",
+  "testCaseId": "c710ad39e59feae569f8a303c38a6079",
+  "fullName": "tests.test_user_creation.TestUserCreation#test_create_user_without_required_field",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_creation"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserCreation"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_creation"
+    }
+  ]
+}

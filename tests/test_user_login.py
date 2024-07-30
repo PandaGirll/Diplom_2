@@ -1,6 +1,7 @@
-import pytest
 import allure
-from api_methods import login_user
+import pytest
+
+from api_methods import ApiMethods
 from expected_responses import *
 from helpers import ResponseChecker
 
@@ -12,7 +13,7 @@ class TestUserLogin:
     @pytest.mark.positive
     def test_login_existing_user(self, create_user):
         email, password, _ = create_user
-        response = login_user(email, password)
+        response = ApiMethods.login_user(email, password)
         assert ResponseChecker.check_status_code(response, SUCCESS_CODE) and \
                ResponseChecker.check_field_exists(response, 'accessToken'), \
             f"Не удалось авторизоваться. Код ответа: {response.status_code}, тело ответа: {response.json()}"
@@ -30,7 +31,8 @@ class TestUserLogin:
         if password == "correctpassword":
             password = correct_password
 
-        response = login_user(email, password)
+        response = ApiMethods.login_user(email, password)
         assert ResponseChecker.check_status_code(response, UNAUTHORIZED_CODE) and \
                ResponseChecker.check_response_field(response, 'message', LOGIN_FAILED['message']), \
-            f"Неожиданный ответ при попытке авторизации с неверными данными. Код ответа: {response.status_code}, тело ответа: {response.json()}"
+            (f"Неожиданный ответ при попытке авторизации с неверными данными. "
+             f"Код ответа: {response.status_code}, тело ответа: {response.json()}")

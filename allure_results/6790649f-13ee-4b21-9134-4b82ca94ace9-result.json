@@ -1,0 +1,92 @@
+{
+  "name": "Попытка авторизации с неверными данными",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Авторизация пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "email",
+          "value": "'pandaedward69@example.net'"
+        },
+        {
+          "name": "password",
+          "value": "'wrongpassword'"
+        }
+      ],
+      "start": 1722303514949,
+      "stop": 1722303515650
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 401",
+      "status": "passed",
+      "start": 1722303515650,
+      "stop": 1722303515650
+    },
+    {
+      "name": "Проверяем значение поля 'message' в ответе (email or password are incorrect)",
+      "status": "passed",
+      "start": 1722303515650,
+      "stop": 1722303515650
+    }
+  ],
+  "parameters": [
+    {
+      "name": "email",
+      "value": "'correct@email.com'"
+    },
+    {
+      "name": "password",
+      "value": "'wrongpassword'"
+    }
+  ],
+  "start": 1722303514949,
+  "stop": 1722303515650,
+  "uuid": "73574aa9-a701-46ab-836d-4f1fe32877d0",
+  "historyId": "d36522562d6a58d50dcc6f884e97723e",
+  "testCaseId": "fbeae77312463979bb58e896f211518f",
+  "fullName": "tests.test_user_login.TestUserLogin#test_login_with_invalid_credentials",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Авторизация пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_login"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserLogin"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_login"
+    }
+  ]
+}

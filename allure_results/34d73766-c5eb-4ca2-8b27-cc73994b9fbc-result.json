@@ -1,0 +1,76 @@
+{
+  "name": "Попытка создания заказа с неверным хешем ингредиентов",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Создание заказа",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0NDBiOWVkMjgwMDAxYjQ4MDg0OCIsImlhdCI6MTcyMjMwMzUwMCwiZXhwIjoxNzIyMzA0NzAwfQ.E1FFXJJhZAi_j5hytqq46hgsTUvKqW3QFZav-w72e2w'"
+        },
+        {
+          "name": "ingredients",
+          "value": "['invalid_hash_1', 'invalid_hash_2']"
+        }
+      ],
+      "start": 1722303501448,
+      "stop": 1722303501928
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 500",
+      "status": "passed",
+      "start": 1722303501928,
+      "stop": 1722303501928
+    }
+  ],
+  "start": 1722303501448,
+  "stop": 1722303501928,
+  "uuid": "bd9fc708-6af4-45d9-8027-d4fd0c9f452a",
+  "historyId": "d97a09d477c06dbbebe3fd63973f126f",
+  "testCaseId": "d97a09d477c06dbbebe3fd63973f126f",
+  "fullName": "tests.test_order_creation.TestOrderCreation#test_create_order_with_invalid_ingredients",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание заказа"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_order_creation"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrderCreation"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_order_creation"
+    }
+  ]
+}

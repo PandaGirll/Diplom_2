@@ -1,0 +1,78 @@
+{
+  "name": "Попытка получения заказов неавторизованным пользователем",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Получение заказов пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "''"
+        }
+      ],
+      "start": 1722303489317,
+      "stop": 1722303489946
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 401",
+      "status": "passed",
+      "start": 1722303489946,
+      "stop": 1722303489946
+    },
+    {
+      "name": "Проверяем значение поля 'message' в ответе (You should be authorised)",
+      "status": "passed",
+      "start": 1722303489946,
+      "stop": 1722303489946
+    }
+  ],
+  "start": 1722303489317,
+  "stop": 1722303489947,
+  "uuid": "5be477f7-ea9a-4ab4-945e-844e7e1f96b3",
+  "historyId": "92bf968573314a866ca27467231d26bc",
+  "testCaseId": "92bf968573314a866ca27467231d26bc",
+  "fullName": "tests.test_get_user_orders.TestGetUserOrders#test_get_orders_unauthorized",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Получение заказов пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_get_user_orders"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetUserOrders"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_get_user_orders"
+    }
+  ]
+}

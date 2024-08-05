@@ -1,0 +1,86 @@
+{
+  "name": "Успешное создание нового пользователя",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Регистрация пользователя: 'pandavanessa53@example.com'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "email",
+          "value": "'pandavanessa53@example.com'"
+        },
+        {
+          "name": "password",
+          "value": "'@a8@HTh&l('"
+        },
+        {
+          "name": "name",
+          "value": "'James Watson'"
+        }
+      ],
+      "start": 1722303502789,
+      "stop": 1722303503515
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 200",
+      "status": "passed",
+      "start": 1722303503515,
+      "stop": 1722303503515
+    },
+    {
+      "name": "Проверяем наличие поля 'accessToken' в ответе",
+      "status": "passed",
+      "start": 1722303503515,
+      "stop": 1722303503515
+    }
+  ],
+  "start": 1722303502789,
+  "stop": 1722303503516,
+  "uuid": "1b7e7570-8b4c-46d3-8eca-ea3ea486b7fd",
+  "historyId": "b46c5179c80173028e9e47d9443dbf3f",
+  "testCaseId": "b46c5179c80173028e9e47d9443dbf3f",
+  "fullName": "tests.test_user_creation.TestUserCreation#test_create_new_user_successfully",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_creation"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserCreation"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_creation"
+    }
+  ]
+}

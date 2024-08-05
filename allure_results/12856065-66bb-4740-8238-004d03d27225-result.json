@@ -1,0 +1,40 @@
+{
+  "name": "generate_user_data",
+  "status": "passed",
+  "start": 1722303517056,
+  "stop": 1722303517057,
+  "uuid": "d3381481-7697-429c-8a67-832cc1a288b3",
+  "historyId": "9a2fd2fcd0dd6e7771cae22b5b740368",
+  "testCaseId": "9a2fd2fcd0dd6e7771cae22b5b740368",
+  "fullName": "tests.test_user_update#generate_user_data",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_update"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_update"
+    }
+  ]
+}

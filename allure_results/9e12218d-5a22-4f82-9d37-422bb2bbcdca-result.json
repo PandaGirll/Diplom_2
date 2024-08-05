@@ -1,0 +1,82 @@
+{
+  "name": "Попытка обновления email на уже существующий",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Изменение данных пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0NDIzOWVkMjgwMDAxYjQ4MDg2MCIsImlhdCI6MTcyMjMwMzUyNCwiZXhwIjoxNzIyMzA0NzI0fQ.4noHXMKaOO6JKAm6-imUCjaLZT-ak2VB1tBwIhvXPrY'"
+        },
+        {
+          "name": "email",
+          "value": "'test@email.ru'"
+        }
+      ],
+      "start": 1722303525501,
+      "stop": 1722303526038
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 403",
+      "status": "passed",
+      "start": 1722303526038,
+      "stop": 1722303526038
+    },
+    {
+      "name": "Проверяем значение поля 'message' в ответе (User with such email already exists)",
+      "status": "passed",
+      "start": 1722303526039,
+      "stop": 1722303526039
+    }
+  ],
+  "start": 1722303525501,
+  "stop": 1722303526039,
+  "uuid": "ed9685de-6f2e-4bb2-9b4c-45ad11aa1741",
+  "historyId": "f2a9da763bae69f81ca3fb51926da786",
+  "testCaseId": "f2a9da763bae69f81ca3fb51926da786",
+  "fullName": "tests.test_user_update.TestUserUpdate#test_update_to_existing_email",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Изменение данных пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_update"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserUpdate"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_update"
+    }
+  ]
+}

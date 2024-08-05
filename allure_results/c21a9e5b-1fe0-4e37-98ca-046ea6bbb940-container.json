@@ -1,0 +1,92 @@
+{
+  "uuid": "e1154da0-33aa-4368-8120-463e9352fac2",
+  "children": [
+    "73574aa9-a701-46ab-836d-4f1fe32877d0"
+  ],
+  "befores": [
+    {
+      "name": "create_user",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Создание тестового пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "Регистрация пользователя: 'pandaedward69@example.net'",
+              "status": "passed",
+              "parameters": [
+                {
+                  "name": "email",
+                  "value": "'pandaedward69@example.net'"
+                },
+                {
+                  "name": "password",
+                  "value": "'K+HM2JkG2F'"
+                },
+                {
+                  "name": "name",
+                  "value": "'Michael Rodriguez'"
+                }
+              ],
+              "start": 1722303514358,
+              "stop": 1722303514948
+            }
+          ],
+          "start": 1722303514358,
+          "stop": 1722303514948
+        }
+      ],
+      "start": 1722303514358,
+      "stop": 1722303514948
+    }
+  ],
+  "afters": [
+    {
+      "name": "create_user::0",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Удаление тестового пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "Авторизация пользователя",
+              "status": "passed",
+              "parameters": [
+                {
+                  "name": "email",
+                  "value": "'pandaedward69@example.net'"
+                },
+                {
+                  "name": "password",
+                  "value": "'K+HM2JkG2F'"
+                }
+              ],
+              "start": 1722303515652,
+              "stop": 1722303516234
+            },
+            {
+              "name": "Удаление пользователя",
+              "status": "passed",
+              "parameters": [
+                {
+                  "name": "token",
+                  "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0NDE5OWVkMjgwMDAxYjQ4MDg1NyIsImlhdCI6MTcyMjMwMzUxNCwiZXhwIjoxNzIyMzA0NzE0fQ.KmBXcTrFI-tjnaPOCXSQ68SMxzsxn5H2VXkviavI97g'"
+                }
+              ],
+              "start": 1722303516235,
+              "stop": 1722303517051
+            }
+          ],
+          "start": 1722303515652,
+          "stop": 1722303517051
+        }
+      ],
+      "start": 1722303515652,
+      "stop": 1722303517051
+    }
+  ],
+  "start": 1722303514358,
+  "stop": 1722303517051
+}

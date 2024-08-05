@@ -1,0 +1,100 @@
+{
+  "uuid": "f8eb7c6d-2ab5-4838-8df5-664fa569f58d",
+  "children": [
+    "18ff9a00-1e79-4a6d-9cd8-0fcf99cb3bf1"
+  ],
+  "befores": [
+    {
+      "name": "new_user",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Создание тестового пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "Регистрация пользователя: 'pandastephen07@example.com'",
+              "status": "passed",
+              "parameters": [
+                {
+                  "name": "email",
+                  "value": "'pandastephen07@example.com'"
+                },
+                {
+                  "name": "password",
+                  "value": "'+G2Z4qwUYC'"
+                },
+                {
+                  "name": "name",
+                  "value": "'Jason James DVM'"
+                }
+              ],
+              "start": 1722303490633,
+              "stop": 1722303491347
+            }
+          ],
+          "start": 1722303490633,
+          "stop": 1722303491347
+        },
+        {
+          "name": "Получение токена авторизации",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "Авторизация пользователя",
+              "status": "passed",
+              "parameters": [
+                {
+                  "name": "email",
+                  "value": "'pandastephen07@example.com'"
+                },
+                {
+                  "name": "password",
+                  "value": "'+G2Z4qwUYC'"
+                }
+              ],
+              "start": 1722303491347,
+              "stop": 1722303492087
+            }
+          ],
+          "start": 1722303491347,
+          "stop": 1722303492087
+        }
+      ],
+      "start": 1722303490631,
+      "stop": 1722303492087
+    }
+  ],
+  "afters": [
+    {
+      "name": "new_user::0",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Удаление тестового пользователя",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "Удаление пользователя",
+              "status": "passed",
+              "parameters": [
+                {
+                  "name": "token",
+                  "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0NDAyOWVkMjgwMDAxYjQ4MDg0MSIsImlhdCI6MTcyMjMwMzQ5MCwiZXhwIjoxNzIyMzA0NjkwfQ.HbdOFlT-2C90318C4h085r4cgurUAMvE4UaP-mbSEww'"
+                }
+              ],
+              "start": 1722303494913,
+              "stop": 1722303495890
+            }
+          ],
+          "start": 1722303494912,
+          "stop": 1722303495891
+        }
+      ],
+      "start": 1722303494912,
+      "stop": 1722303495891
+    }
+  ],
+  "start": 1722303490631,
+  "stop": 1722303495891
+}

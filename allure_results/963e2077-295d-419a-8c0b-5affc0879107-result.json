@@ -1,0 +1,86 @@
+{
+  "name": "Попытка создания уже существующего пользователя",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Регистрация пользователя: 'pandadavid89@example.com'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "email",
+          "value": "'pandadavid89@example.com'"
+        },
+        {
+          "name": "password",
+          "value": "'g9j8yFms!y'"
+        },
+        {
+          "name": "name",
+          "value": "'Daniel Cordova'"
+        }
+      ],
+      "start": 1722303504290,
+      "stop": 1722303504884
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 403",
+      "status": "passed",
+      "start": 1722303504884,
+      "stop": 1722303504884
+    },
+    {
+      "name": "Проверяем значение поля 'message' в ответе (User already exists)",
+      "status": "passed",
+      "start": 1722303504884,
+      "stop": 1722303504884
+    }
+  ],
+  "start": 1722303504290,
+  "stop": 1722303504885,
+  "uuid": "7774a138-4591-492c-a2cf-bd3c5d9269c0",
+  "historyId": "29e1226924a77c955534ca9412e6b131",
+  "testCaseId": "29e1226924a77c955534ca9412e6b131",
+  "fullName": "tests.test_user_creation.TestUserCreation#test_create_existing_user",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_creation"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserCreation"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_creation"
+    }
+  ]
+}

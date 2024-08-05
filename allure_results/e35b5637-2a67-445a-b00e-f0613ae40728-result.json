@@ -1,0 +1,83 @@
+{
+  "name": "Попытка создания заказа неавторизованным пользователем",
+  "status": "passed",
+  "description": "\n        Известный баг: API позволяет создать заказ неавторизованному пользователю.\n        Ожидаемое поведение: код ответа 401 Unauthorized.\n        Фактическое поведение: код ответа 200, заказ создаётся.\n    ",
+  "steps": [
+    {
+      "name": "Создание заказа",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "''"
+        },
+        {
+          "name": "ingredients",
+          "value": "['61c0c5a71d1f82001bdaaa71', '61c0c5a71d1f82001bdaaa74', '61c0c5a71d1f82001bdaaa77']"
+        }
+      ],
+      "start": 1722303496498,
+      "stop": 1722303496996
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 200",
+      "status": "passed",
+      "start": 1722303496996,
+      "stop": 1722303496996
+    },
+    {
+      "name": "Проверяем значение поля 'success' в ответе (True)",
+      "status": "passed",
+      "start": 1722303496996,
+      "stop": 1722303496996
+    }
+  ],
+  "start": 1722303496498,
+  "stop": 1722303496997,
+  "uuid": "624f4970-e1d1-412e-a64b-3a8321390f84",
+  "historyId": "109175c3a04fb5d32b76603e4b04973d",
+  "testCaseId": "109175c3a04fb5d32b76603e4b04973d",
+  "fullName": "tests.test_order_creation.TestOrderCreation#test_create_order_unauthorized",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание заказа"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_order_creation"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrderCreation"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_order_creation"
+    }
+  ]
+}

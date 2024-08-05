@@ -1,0 +1,32 @@
+{
+  "uuid": "73b66109-d98c-4538-a7bd-f4aa94137e51",
+  "children": [
+    "f61fbc4d-dc01-4eb2-a1af-f7e2d818dbf4"
+  ],
+  "befores": [
+    {
+      "name": "ingredients",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "Получение списка ингредиентов",
+          "status": "passed",
+          "steps": [
+            {
+              "name": "Получение списка ингредиентов",
+              "status": "passed",
+              "start": 1722303489954,
+              "stop": 1722303490621
+            }
+          ],
+          "start": 1722303489954,
+          "stop": 1722303490621
+        }
+      ],
+      "start": 1722303489953,
+      "stop": 1722303490622
+    }
+  ],
+  "start": 1722303489953,
+  "stop": 1722303490624
+}

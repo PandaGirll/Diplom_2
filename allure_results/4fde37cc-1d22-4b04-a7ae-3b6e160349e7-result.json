@@ -1,0 +1,92 @@
+{
+  "name": "Попытка создания пользователя без обязательного поля",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Регистрация пользователя: 'pandamwilliams@example.com'",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "email",
+          "value": "'pandamwilliams@example.com'"
+        },
+        {
+          "name": "password",
+          "value": "''"
+        },
+        {
+          "name": "name",
+          "value": "'Samuel Rodriguez'"
+        }
+      ],
+      "start": 1722303507227,
+      "stop": 1722303507853
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 403",
+      "status": "passed",
+      "start": 1722303507853,
+      "stop": 1722303507853
+    },
+    {
+      "name": "Проверяем значение поля 'message' в ответе (Email, password and name are required fields)",
+      "status": "passed",
+      "start": 1722303507853,
+      "stop": 1722303507853
+    }
+  ],
+  "parameters": [
+    {
+      "name": "field",
+      "value": "'password'"
+    }
+  ],
+  "start": 1722303507227,
+  "stop": 1722303507853,
+  "uuid": "12cc863c-bafb-4d39-ad6a-efc7c0864713",
+  "historyId": "5fb287600e242cda25db791e5eb1edd2",
+  "testCaseId": "c710ad39e59feae569f8a303c38a6079",
+  "fullName": "tests.test_user_creation.TestUserCreation#test_create_user_without_required_field",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_creation"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserCreation"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_creation"
+    }
+  ]
+}

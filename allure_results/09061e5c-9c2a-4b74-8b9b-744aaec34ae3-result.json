@@ -1,0 +1,82 @@
+{
+  "name": "Успешное создание заказа авторизованным пользователем",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Создание заказа",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YTg0NDAyOWVkMjgwMDAxYjQ4MDg0MSIsImlhdCI6MTcyMjMwMzQ5MCwiZXhwIjoxNzIyMzA0NjkwfQ.HbdOFlT-2C90318C4h085r4cgurUAMvE4UaP-mbSEww'"
+        },
+        {
+          "name": "ingredients",
+          "value": "['61c0c5a71d1f82001bdaaa71', '61c0c5a71d1f82001bdaaa78', '61c0c5a71d1f82001bdaaa7a']"
+        }
+      ],
+      "start": 1722303492702,
+      "stop": 1722303494908
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 200",
+      "status": "passed",
+      "start": 1722303494909,
+      "stop": 1722303494909
+    },
+    {
+      "name": "Проверяем наличие поля 'order' в ответе",
+      "status": "passed",
+      "start": 1722303494909,
+      "stop": 1722303494909
+    }
+  ],
+  "start": 1722303492701,
+  "stop": 1722303494910,
+  "uuid": "18ff9a00-1e79-4a6d-9cd8-0fcf99cb3bf1",
+  "historyId": "cbbea9b6a477f5fa39f6d06de368178d",
+  "testCaseId": "cbbea9b6a477f5fa39f6d06de368178d",
+  "fullName": "tests.test_order_creation.TestOrderCreation#test_create_order_authorized",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Создание заказа"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_order_creation"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrderCreation"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_order_creation"
+    }
+  ]
+}

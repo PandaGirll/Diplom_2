@@ -1,0 +1,88 @@
+{
+  "name": "Попытка изменения данных неавторизованного пользователя",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Изменение данных пользователя",
+      "status": "passed",
+      "parameters": [
+        {
+          "name": "token",
+          "value": "''"
+        },
+        {
+          "name": "name",
+          "value": "'Michael Roberts'"
+        }
+      ],
+      "start": 1722303523529,
+      "stop": 1722303524133
+    },
+    {
+      "name": "Проверяем код ответа. Код ответа - 401",
+      "status": "passed",
+      "start": 1722303524133,
+      "stop": 1722303524133
+    },
+    {
+      "name": "Проверяем значение поля 'message' в ответе (You should be authorised)",
+      "status": "passed",
+      "start": 1722303524133,
+      "stop": 1722303524133
+    }
+  ],
+  "parameters": [
+    {
+      "name": "field",
+      "value": "'name'"
+    }
+  ],
+  "start": 1722303523528,
+  "stop": 1722303524134,
+  "uuid": "1ce99767-c7f8-4c13-a0eb-5ae523ca183a",
+  "historyId": "139d4aeb3e21c0fc7595f2280ba7bbd9",
+  "testCaseId": "0609f5b951bef98907eec8b51c9fbf03",
+  "fullName": "tests.test_user_update.TestUserUpdate#test_update_unauthorized_user",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Изменение данных пользователя"
+    },
+    {
+      "name": "tag",
+      "value": "negative"
+    },
+    {
+      "name": "parentSuite",
+      "value": "tests"
+    },
+    {
+      "name": "suite",
+      "value": "test_user_update"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUserUpdate"
+    },
+    {
+      "name": "host",
+      "value": "PandaPC"
+    },
+    {
+      "name": "thread",
+      "value": "4920-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "tests.test_user_update"
+    }
+  ]
+}
